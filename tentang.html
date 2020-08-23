@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- load font disini -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900,900i" rel="stylesheet">
+	
+	<!-- load css disini -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<title>Tentang | Restoran Sederhana</title>
+</head>
+<body>
+
+	<header>
+    <nav id="nav" onclick="toggleMenu();">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png">
+        </a>
+      </div>
+      <div class="menu-mobile" onclick="toggleMenu();">
+        <div id="menu-button" onclick="toggleMenu();">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- <a>Menu</a> -->
+      </div>
+      <ul id="menu-list">
+        <li><a href="kontak.html" style="color: #737373;">Lokasi & Kontak</a></li>
+        <li><a href="tentang.html" style="color: #737373;">Tentang</a></li>
+        <li><a href="berita.html" style="color: #737373;">Berita</a></li>
+        <li><a href="menu.html" style="color: #737373;">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+	<div class="imagemodal">
+        <i class="material-icons" onclick="$('.imagemodal').hide()">close</i>
+        <img src="" class="imagepreview">
+    </div>
+	
+	<section class="owner">
+		<div class="wrapper">
+			<div class="row flex-m">
+			
+				<div class="owner-content column-6 flex flex-center">
+					<h2 class="big-text-2">AN OUTSTANDING MASTER OF JAPANESE CUISINE</h2>
+
+					<p>
+						Has 30 years’ experience of ambassadorship of Japanese culinary traditions all over the world, having opened restaurants in the USA, Europe, Mexico and Japan till the moment.
+					</p>
+
+					<p>
+						“My main principle at work – is perfect quality and freshness of the ingredients which I use for preparing my dishes. I invite you to both enjoy the taste of genuine Japanese cuisine and become familiar with the rich Japanese culture in our restaurant.”
+					</p>
+
+					<h5 class="text-bold text-muted">FUJIWARA YOSHIHIRO</h5>
+				</div> 
+				<!-- end of owner-content -->
+				
+				<div class="owner-image column-6">
+					<img src="assets/images/owner.jpg" >
+				</div> 
+				<!-- end of owner-image -->
+				
+			</div>
+			<!-- end of row -->
+		</div>
+		<!-- end of wrapper -->
+	</section>
+	<!-- end of owner section -->
+	
+	
+	<section class="visi-misi">
+		<div class="wrapper">
+			<div class="row flex-m">
+				
+				<div class="visi column-6 flex flex-center">
+					<h2>Visi</h2>
+					<p>
+						Pada Tahun 2023, Menjadi jaringan rumah makan terbesar di Indonesia, yang menyajikan makanan padang berkualitas dengan layanan yang cepat dan bersahabat dalam rangka memenuhi selera dan kepuasan pelanggan
+					</p>
+				</div>
+				
+				<div class="misi column-6">
+					
+					<h2>Misi</h2>	
+					<p>
+						Membangun organisasi dan sistem manajemen yang bertaraf dunia serta Sumber Daya Manusia yang berdedikasi dan Profesional<br>
+						Mengembangkan usaha ke seluruh pelosok Indonesia termasuk ke pasar Internasional<br>
+						Memberikan kepuasan terhadap pelanggan, pemilik, pemegang saham, karyawan / pegawai
+					</p>
+
+				</div>
+			</div>
+			<!-- end of row -->
+		</div>
+		<!-- end of wrapper -->
+	</section>
+	<!-- end of visi-misi section -->
+	
+	<section class="gallery">
+		<div class="wrapper">
+			<h2 class="subtitle"><span>Galeri</span></h2>
+			<div class="row wrap">
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (2).jpg" alt="">
+				</div>
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (3).jpg" alt="">
+				</div>
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (4).jpg" alt="">
+				</div>
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (5).jpg" alt="">
+				</div>
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (6).jpg" alt="">
+				</div>
+				<div class="column-4 img-box">
+					<img class="image-file" src="assets/images/galeri (7).jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+</html>

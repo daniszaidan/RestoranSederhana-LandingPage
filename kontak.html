@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- load font disini -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	
+	<!-- load css disini -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<title>Tentang | Restoran Sederhana</title>
+</head>
+<body>
+
+	<header>
+    <nav id="nav" onclick="toggleMenu();">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png">
+        </a>
+      </div>
+      <div class="menu-mobile" onclick="toggleMenu();">
+        <div id="menu-button" onclick="toggleMenu();">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- <a>Menu</a> -->
+      </div>
+      <ul id="menu-list">
+        <li><a href="kontak.html">Lokasi & Kontak</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="menu.html">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+	
+	<main class="kontak">
+		
+	<section class="banner-kontak hero-image flex flex-center">
+		<h1 class="display-3 text-shadow box-shadow">Kontak &amp; <span>Lokasi</span></h1>
+	</section>
+	
+	<section class="user-location">
+		<div class="wrapper">
+			
+			<h2 class="subtitle"><span>Lokasi Terdekat</span></h2>
+
+			<div class="row wrap flex-m box-shadow">
+				<div class="column-flex-1 bg-white location-detail">
+					<h3>Warung Sederhana</h3>
+					<ul>
+						<li><i class="material-icons">streetview</i> Jl. Gubeng Pojok No. 1 A, Embong Kaliasin, Genteng</li>
+						<li><i class="material-icons">call</i> (031) 5010014</li>
+						<li><i class="material-icons">access_time</i> Buka 24 jam</li>
+					</ul>
+				</div>
+				<div class="column-flex-2 flex flex-center text-center hero-image bg-user-location">
+					<h3 class="display-4">Surabaya</h3>
+				</div>
+			</div> 
+			<!-- end of row -->
+		</div>
+		<!-- end of wrapper -->
+	</section>
+	<!-- end of section -->
+
+	<section class="branch">
+		<h2 class="subtitle"><span>Cabang Lainnya</span></h2>
+		<div class="wrapper">
+			<div class="row wrap">
+				<ul class="column-flex-1">
+					<li>Banten &amp; Tanggerang (+62 821 2173 3123)</li>
+					<li>Jakarta (+62 821 7238 3123)</li>
+					<li>Surabaya (+62 877 1123 0923)</li>
+					<li>Bengkulu (+62 878 0000 1238)</li>
+					<li>Bandung (+62 878 8237 3473)</li>
+					<li>Jakarta (+62 821 7238 3123)</li>
+					<li>Jakarta (+62 821 7238 3123)</li>
+					<li>Surabaya (+62 877 1123 0923)</li>
+					<li>Bandung (+62 878 8237 3473)</li>
+					<li>Surabaya (+62 877 1123 0923)</li>
+					<li>Bengkulu (+62 878 0000 1238)</li>
+					<li>Sukapuras (+62 878 8237 3473)</li>
+					<li>Bengkulu (+62 878 0000 1238)</li>
+					<li>Surabaya (+62 877 1123 0923)</li>
+					<li>Bandung (+62 878 8237 3473)</li>
+					<li>Tegal (+62 878 0000 1238)</li>
+					<li>Jakarta (+62 821 7238 3123)</li>
+					<li>Pemalang (+62 878 0000 1238)</li>
+				</ul>
+			</div>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15830.609228504498!2d112.74685081981008!3d-7.2803439054123436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestoran+sederhana!5e0!3m2!1sid!2sid!4v1539795193884" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		
+	</section>
+	<!-- end of section -->
+
+	<section class="contact">
+		<div class="wrapper">
+			
+			<h2 class="subtitle"><span>Kontak Kami</span></h2>
+
+			<div class="row wrap flex-m contact-box box-shadow">
+				<div class="column-flex-1 flex flex-center hero-image bg-contact">
+				</div>
+		
+				
+				<div class="column-flex-2 contact-form">
+					<h3>Kritik dan Saran</h3>
+					<!-- <form>
+						<div class="element-form">
+							<label>Nama Lengkap</label>
+							<input type="text">
+						</div>
+
+						<div class="element-form">
+							<label>Email</label>
+							<input type="email">
+						</div>
+
+						<div class="element-form">
+							<label>Pesan</label>
+							<textarea></textarea>
+						</div>
+
+					</form>					 -->
+					<form class="form-sign-up">
+			            <div class="form-input">
+			              <input type="text" required="">
+			              <label>Nama</label>
+			            </div>
+			            <div class="form-input">
+			              <input type="text" required="">
+			              <label>Email</label>
+			            </div>
+			            <div class="form-input">
+			              <input type="text" required="">
+			              <label>Messege</label>
+			            </div>
+			            <button class="btn btn-primary f-right">Daftar</button>
+			          </form>
+				</div>
+			</div> 
+			<!-- end of row -->
+		</div>
+		<!-- end of wrapper -->
+	</section>
+	<!-- end of section -->
+		
+	</main>
+
+	<script src="js/script.js"></script>
+		
+</body>
+</html>
